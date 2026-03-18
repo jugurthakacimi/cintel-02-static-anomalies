@@ -131,3 +131,6 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Technical Modifications
+Modified the filter condition to identify anomalies that are either above the maximum thresholds or below the minimum thresholds for both age and height in the `anomaly_detector_jugurtha.py` file.
